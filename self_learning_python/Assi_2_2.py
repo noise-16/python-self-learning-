@@ -23,12 +23,12 @@ ws.append(headers)
 
 # 3. Sample student data: (Roll No, Name, Lab, Theory)
 students = [
-    ("AIML001", "Aarav Sharma", 44, 41),
-    ("AIML002", "Diya Mehta", 38, 35),
-    ("AIML003", "Rohan Iyer", 25, 12),   # expected Fail
-    ("AIML004", "Sneha Kulkarni", 47, 45),
-    ("AIML005", "Kabir Singh", 30, 28),
-    ("AIML006", "Ananya Desai", 18, 15),  # expected Fail (33 total)
+    ("A001", "Aarav Sharma", 44, 41),
+    ("A002", "Diya Mehta", 38, 35),
+    ("A003", "Rohan Iyer", 25, 12),  
+    ("A004", "Sneha Kulkarni", 47, 45),
+    ("A005", "Kabir Singh", 30, 28),
+    ("A006", "Ananya Desai", 18, 15),  
 ]
 for roll, name, lab, theory in students:
     ws.append([roll, name, lab, theory, None, None])
